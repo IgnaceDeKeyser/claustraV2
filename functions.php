@@ -9,7 +9,7 @@
     );
 }
     function theme_features(){
-        add_theme_support('title-tag');
+        add_theme_support('title-tag'); // allows wordpress tohandle the title tag 
     }
 
 add_action(
@@ -17,6 +17,6 @@ add_action(
     'theme_files' // name of the function we just made
 );
 add_action(
-    'after_setup_theme',
-    'theme_features'
+    'after_setup_theme',  // runs before wp_head (see header.php)
+    'theme_features' // name of the function we just made
 );
