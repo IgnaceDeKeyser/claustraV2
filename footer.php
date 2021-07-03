@@ -2,11 +2,8 @@
 		<nav>
 			<ul>			
 				<li>
-					<a>Instagram</a> <!--- add link here! --->
-				</li>
-				<!--- <li >
-					<a href="">Facebook</a>
-				</li> --->
+					<a>Instagram</a> <!---this still has to be made dynamical (same method as header menu)--->
+				</li> 
 			</ul>
 		</nav>
 </footer>
